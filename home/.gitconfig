@@ -1,0 +1,25 @@
+[user]
+	name = Jens Neuhalfen
+	email = jens@neuhalfen.name
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+
+[core]
+	excludesfile = "~/.gitignore"
+	editor = vim
+[merge]
+	tool = vimdiff
+	summary = true
+[push]
+	default = matching
+[diff]
+	tool = vimdiff
