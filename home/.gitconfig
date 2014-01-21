@@ -24,3 +24,5 @@
 	default = matching
 [diff]
 	tool = vimdiff
+[branch]
+	autosetuprebase = always
