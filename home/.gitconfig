@@ -26,3 +26,11 @@
 	tool = vimdiff
 [branch]
 	autosetuprebase = always
+[sendemail]
+	smtpEncryption = tls
+	smtpDomain = neuhalfen.name
+	smtpUser = jens.neuhalfen
+	smtpServer = mail.neuhalfen.name
+	suppresscc = all
+	smtpsslcertpath = /Users/jens/Documents/certificates/cacert.pem
+	smtpServerPort = 25
